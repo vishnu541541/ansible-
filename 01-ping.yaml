@@ -1,0 +1,5 @@
+- name: PING
+  hosts: web #which host u want to ping 
+  task: #list of the tasks/modules
+  - name: ping the server 
+    ansbile.builtin.ping:
